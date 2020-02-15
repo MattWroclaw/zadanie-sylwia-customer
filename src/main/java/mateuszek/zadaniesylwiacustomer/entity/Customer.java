@@ -19,4 +19,7 @@ public class Customer {
 
     private String pesel;
 
+    private int credtiId;
+
+
 }
