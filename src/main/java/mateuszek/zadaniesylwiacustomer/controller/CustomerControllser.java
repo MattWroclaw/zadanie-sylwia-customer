@@ -2,11 +2,8 @@ package mateuszek.zadaniesylwiacustomer.controller;
 
 import lombok.RequiredArgsConstructor;
 import mateuszek.zadaniesylwiacustomer.entity.Customer;
-import mateuszek.zadaniesylwiacustomer.repository.CustomerRepository;
 import mateuszek.zadaniesylwiacustomer.service.CustomerService;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RestController
 @RequiredArgsConstructor

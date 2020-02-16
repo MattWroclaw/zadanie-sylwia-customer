@@ -11,17 +11,17 @@ import java.util.List;
 @RequiredArgsConstructor
 public class CustomerService {
 
-    private final CustomerRepository  repository;
+    private final CustomerRepository repository;
 
     public void saveCustomer(Customer customer) {
         repository.save(customer);
     }
 
-    public Customer getCustByCreditID(int id){
+    public Customer getCustByCreditID(int id) {
         return repository.getCustomerByCredtiId(id);
     }
 
-    public List<Customer> showAllCustomers(){
-       return repository.findAll();
+    public List<Customer> showAllCustomers() {
+        return repository.findAll();
     }
 }
